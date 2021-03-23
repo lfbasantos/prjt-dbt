@@ -1,5 +1,5 @@
 
-with source_data as (
+with source_data2 as (
 
     select 1 as id
     union all
@@ -8,5 +8,5 @@ with source_data as (
 )
 
 select *
-from source_data
+from source_data2
 
